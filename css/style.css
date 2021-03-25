@@ -1,0 +1,472 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  width: 100%;
+  height: 100px;
+  background-color: #21202a;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "Work Sans", sans-serif;
+  font-size: 21px;
+}
+
+.housemate-resp {
+  display: none;
+}
+
+.content-nav {
+  width: 78%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo img {
+  width: 91%;
+  padding: 29px 30px;
+}
+
+.social {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  position: absolute;
+  top: 0;
+  transform: translateY(-100%);
+  transition: transform 0.5s ease-in;
+}
+
+.social li {
+  float: none;
+}
+
+.social li a {
+  font-size: 61px;
+}
+
+.menu {
+  display: block;
+}
+
+.social ul {
+  display: block;
+  padding-top: 227px;
+}
+
+.social a {
+  padding: 10px;
+  text-decoration: none;
+}
+
+.social a img {
+  width: 28px;
+}
+
+.close {
+  float: right;
+  padding: 60px;
+}
+
+/*menu respo start*/
+
+.social-respo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.social-respo li a {
+  padding: 8px;
+}
+
+.social-respo a img {
+  width: 28px;
+}
+
+.redes {
+  margin-right: 28px;
+}
+
+.burger {
+}
+
+/* .nav-active {
+  transform: translateX(0%);
+}
+
+*/
+
+/*menu respo ends*/
+
+.wrapper {
+  width: 100%;
+  height: 850px;
+  background-color: #21202a;
+}
+
+.hello {
+  width: 85%;
+  margin: auto;
+}
+
+.hello img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 71px;
+}
+
+.hello h1 {
+  text-align: center;
+  font-family: "Work Sans", sans-serif;
+  font-weight: bold;
+  font-size: 43px;
+  color: white;
+}
+
+.hello p {
+  text-align: center;
+  font-family: "Work Sans", sans-serif;
+  font-size: 23px;
+  color: white;
+  padding-top: 15px;
+}
+
+.hello a {
+  color: white;
+  text-align: center;
+  border-color: turquoise;
+  padding: 15px;
+  border: 2px solid #00abb9;
+  border-radius: 7px;
+  text-decoration: none;
+  font-family: "Work Sans", sans-serif;
+  font-size: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70px;
+  width: 200px;
+}
+
+em {
+  color: #00abb9;
+  font-style: normal;
+}
+
+.port {
+  width: 100%;
+  background-color: white;
+  display: block;
+}
+
+.port-container {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70px;
+  width: 65%;
+  height: 500px;
+  justify-content: space-between;
+  border-radius: 32px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.pet {
+  background-image: url(images/bg_pet.png);
+}
+
+.poppins {
+  background-image: url(images/bg_poppins.png);
+  background-color: #e3ffff;
+}
+
+#poppins img {
+  width: 700px !important;
+  margin: -120px;
+  padding: 90px 30px;
+
+  position: relative;
+}
+
+.port-text {
+  width: 49%;
+  height: 360;
+  padding-left: 68px;
+  padding-top: 98px;
+}
+
+.port-text h2 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 26px;
+  font-weight: 500;
+  color: #2e2e2e;
+  text-orientation: none;
+}
+
+.port-text p {
+  font-family: "Work Sans", sans-serif;
+  font-size: 23px;
+  color: #2e2e2e;
+}
+
+.porttrait {
+  display: flex;
+  justify-content: space-between;
+}
+
+.porttrait h2 {
+  text-decoration: none;
+}
+
+.port-img {
+  margin: auto;
+  height: 360px;
+}
+
+.port-img img {
+  width: 370px;
+  margin-top: -10px;
+}
+
+.housemate img {
+  width: 521px;
+}
+
+.government img {
+  width: 605px;
+  margin-top: -57px;
+  margin-left: -43px;
+}
+
+.container-port {
+  width: 100%;
+  padding-top: 50px;
+}
+
+#port {
+  margin: 96px 5%;
+  display: grid;
+  grid-template-rows: 400px 400px 400px 400px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+    "poppins pet pet"
+    " poppins housemate housemate"
+    "health health epic"
+    " yes yes epic";
+}
+
+#poppins {
+  grid-area: poppins;
+  background-color: #e8fcfc;
+}
+
+#pet {
+  grid-area: pet;
+}
+
+#housemate {
+  grid-area: housemate;
+  background-color: #fff9f9;
+}
+
+#health {
+  grid-area: health;
+}
+
+#epic {
+  grid-area: epic;
+}
+
+#yes {
+  grid-area: yes;
+}
+
+.portGridArea {
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 23px #d8d8d8;
+}
+/* Case study */
+
+.case-hero {
+  width: 100%;
+  height: 600px;
+  margin: auto;
+  background-color: #f2f2f2;
+}
+
+.content-hero {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  padding-top: 70px;
+}
+
+.case-text {
+  width: 40%;
+  padding-top: 190px;
+}
+
+.case-text h2 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 500;
+  font-size: 43px;
+  color: rgb(37, 37, 37);
+}
+
+.case-text p {
+  font-family: "Work Sans", sans-serif;
+  font-size: 23px;
+  margin-top: -31px;
+  color: rgb(39, 39, 39);
+  padding-top: 15px;
+}
+
+.case-image {
+  width: 60%;
+}
+
+.overview {
+  height: 250px;
+  width: 70%;
+  padding-top: 90px;
+  margin: auto;
+}
+
+.overview h3 {
+  font-size: 28px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: bolder;
+  color: rgb(37, 37, 37);
+}
+
+.overview p {
+  font-size: 18px;
+  font-family: "Work Sans", sans-serif;
+  color: rgb(37, 37, 37);
+}
+
+.role {
+  padding-top: 40px;
+}
+
+th {
+  font-size: 22px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: bolder;
+  color: rgb(37, 37, 37);
+}
+
+.text-role {
+  font-size: 18px;
+  font-family: "Work Sans", sans-serif;
+  color: rgb(37, 37, 37);
+}
+
+table {
+  width: 60%;
+}
+
+.titles {
+  background-color: #facc3b;
+  text-align: center;
+  padding: 15px;
+  margin-top: 70px;
+  margin-bottom: 90px;
+}
+
+/* about */
+
+.about h1 {
+  color: #00abb9;
+  font-size: 49px;
+  padding-top: 190px;
+  text-align: left;
+  padding-bottom: 35px;
+  padding-left: 20px;
+}
+
+.about p {
+  color: #e0e0e0;
+}
+
+.about {
+  width: 50%;
+}
+
+/*footer*/
+
+.social-footer {
+  width: 100%;
+  height: 90px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.social-footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 20px;
+  overflow: hidden;
+}
+
+.social-footer li {
+  float: left;
+}
+
+.social-footer li a {
+  display: inline-block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.bottom p {
+  font-size: 18px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: bold;
+  color: rgb(37, 37, 37);
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.bottom h4 {
+  font-size: 18px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 500;
+  color: rgb(37, 37, 37);
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}

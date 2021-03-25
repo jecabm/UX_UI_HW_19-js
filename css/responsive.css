@@ -1,0 +1,234 @@
+@media only screen and (max-width: 1600px) {
+  .logo img {
+    width: 266px;
+    padding: 16px 8px;
+    margin-left: -12px;
+  }
+
+  .wrapper {
+    height: 930px;
+  }
+}
+
+@media only screen and (max-width: 1460px) {
+  .logo img {
+    width: 266px;
+    padding: 14px 8px;
+    margin-left: -12px;
+  }
+
+  .port-text {
+    padding-top: 97px;
+  }
+  .housemate img {
+    width: 449px;
+    padding-top: 49px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  #port {
+    display: block;
+  }
+  #poppins {
+    width: 96%;
+    display: flex;
+  }
+  #poppins img {
+    width: 682px;
+    padding: 76px 30px;
+    margin: -140px;
+  }
+
+  .persona {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .social {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .house-resp {
+    display: none !important;
+  }
+  .government img {
+    width: 545px;
+    margin-top: -35px;
+  }
+
+  .about {
+    width: 80%;
+  }
+
+  .case-img {
+    display: none;
+  }
+
+  .case-text {
+    width: 100%;
+    padding-top: 49px;
+  }
+  .content-hero {
+    display: block;
+  }
+
+  .case-hero {
+    height: 409px;
+  }
+
+  .overview {
+    padding-top: 117px;
+  }
+
+  .redes{
+    display: none;
+  }
+
+  .burger{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .wrapper {
+    height: 700px;
+  }
+
+  .about p {
+    font-size: 16px;
+  }
+
+  .about h1 {
+    padding-top: 69px;
+  }
+
+  .logo img {
+    width: 195px;
+    padding-top: 32px;
+  }
+
+  .hello img {
+    width: 294px;
+    padding-bottom: 30px;
+  }
+
+  .hello h1 {
+    font-size: 32px;
+  }
+
+  .hello p {
+    font-size: 18px;
+  }
+
+  /*Content start*/
+
+  .port-text h2 {
+    font-size: 30px;
+  }
+
+  .port-text p {
+    font-size: 21px;
+    padding-top: 24px;
+  }
+
+  .port-text {
+    width: 219px;
+    padding-top: 38px;
+    padding-bottom: 16px;
+    padding-left: 44px;
+  }
+
+  #poppins img {
+    width: 527px !important;
+    margin: -126px;
+    padding: 114px 35px;
+  }
+
+  #poppins {
+    display: block;
+    width: 89%;
+  }
+
+  #housemate img {
+    width: 367px;
+    margin-left: -10px;
+  }
+
+  #health img {
+    width: 413px;
+    margin-left: -32px;
+  }
+
+  .housemate-resp {
+    margin: auto;
+    display: block;
+    width: 361px;
+  }
+
+  .porttrait {
+    display: block;
+  }
+
+  .port-img img {
+    width: 323px;
+    padding-top: 10px;
+  }
+
+  .port-img {
+    height: 323px;
+  }
+
+  /*Content finish*/
+
+  /*footer start*/
+
+  .bottom li a {
+    width: 53px;
+    margin-left: 3px;
+  }
+
+  .bottom li a img {
+    width: 33px;
+  }
+
+  .bottom p {
+    font-size: 17px;
+  }
+
+  .bottom h4 {
+    font-size: 14px;
+  }
+
+  /*footer finish*/
+
+  .persona {
+    display: none;
+  }
+
+  .social-respo a img{
+
+    padding-top: 26px;
+
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .port-img img {
+    width: 287px;
+    padding-top: 46px;
+  }
+  .housemate-resp {
+    width: 282px;
+  }
+  #health img {
+    width: 363px;
+  }
+
+  #housemate img {
+    width: 300px;
+  }
+}
