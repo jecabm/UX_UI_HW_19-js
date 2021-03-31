@@ -1,15 +1,9 @@
-const navSlide = () => {
-
-  const burger = document.querySelector('.burger');
-  const nav = document.querySelector('.social');
-
-  burger.addEventListener('click',()=>{
-
-    nav.classList.toggle('nav-active');
-
-  });
-
-
+function openNav() {
+  document.getElementById("burger").style.display = "none";
+  document.getElementById("social").style.height = "100%";
 }
 
-navSlide();
+function closeNav() {
+  document.getElementById("social").style.height = "0%";
+  document.getElementById("burger").style.display = "block";
+}

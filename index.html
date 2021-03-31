@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="css/style.css">
    <link rel="stylesheet" href="css/responsive.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title> jessica bossio</title>
 </head>
 <body>
@@ -40,8 +41,8 @@
 
                 <ul>
 
-                    <li> <a href="#projects" class="burger">Menu </a></li>
-                    <li> <a href="about.html" class="burger" ><img src="images/burger.png" > </a></li>
+                    <li > <span id="burger" class="burger" onclick="openNav()">Menu</span> </li>
+                    <li > <span id="burger" class="burger" onclick="openNav()"><img src="images/burger.png"></span>  </li>
                     
                 </ul>
 
@@ -60,9 +61,14 @@
            
         </div>
 
-        <div class="social nav-active">
+        <div id="social" class="social nav-active">
 
-            <div class="close"><img src="images/closed.png"></div>
+            <div class="close">
+
+                <a href="#" id="close" class="close" onclick="closeNav()"><img src="images/closed.png"></a>
+            
+            
+            </div>
 
             <ul>
     

@@ -53,13 +53,17 @@ li a {
 }
 
 .social {
-  width: 100%;
-  height: 100vh;
-  background-color: black;
   position: absolute;
   top: 0;
-  transform: translateY(-100%);
-  transition: transform 0.5s ease-in;
+  text-align: center;
+  width: 100%;
+  overflow-x: hidden;
+  height: 0;
+  z-index: 1;
+  position: fixed;
+  background: rgb(0, 0, 0);
+  transition: .3s;
+  cursor: pointer;
 }
 
 .social li {
@@ -91,6 +95,7 @@ li a {
 .close {
   float: right;
   padding: 60px;
+  cursor: pointer;
 }
 
 /*menu respo start*/
@@ -114,6 +119,12 @@ li a {
 }
 
 .burger {
+  
+  color: white;
+  text-decoration: none;
+  font-family: "Work Sans", sans-serif;
+  font-size: 21px;
+  padding-right: 10px;
 }
 
 /* .nav-active {
