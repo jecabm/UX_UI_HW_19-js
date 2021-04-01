@@ -40,8 +40,8 @@
 
                 <ul>
 
-                    <li> <a href="#projects">Menu </a></li>
-                    <li> <a href="about.html" class="urger"><img src="images/burger.png"> </a></li>
+                    <li > <span id="burger" class="burger" onclick="openNav()">Menu</span> </li>
+                    <li > <span id="burger" class="burger" onclick="openNav()"><img src="images/burger.png"></span>  </li>
                     
                 </ul>
 
@@ -55,17 +55,23 @@
 
            
 
-
            
             
            
         </div>
 
-        <div class="social">
+        <div id="social" class="social nav-active">
+
+            <div class="close">
+
+                <a href="#" id="close" class="close" onclick="closeNav()"><img src="images/closed.png"></a>
+            
+            
+            </div>
 
             <ul>
     
-                <li> <a href="#projects" class=" menu">Projects </a></li>
+                <li> <a href="index.html#projects" class=" menu">Projects </a></li>
                 <li> <a href="about.html" class=" menu">About </a></li>
                 
             </ul>
@@ -92,6 +98,23 @@
 
             </div> 
 
+            
+
+        </div>
+
+        <div class="menu-case">
+
+            <ul>
+
+                <a href="#process"> <li>Process</li></a>
+                <a href="#research"> <li>Research</li></a>
+                <a href="#ideation"> <li>Ideation</li></a>
+                <a href="#prototype"> <li>Prototyping</li></a>
+                <a href="#visual"> <li>Visual Design</li></a>
+
+            </ul>
+
+
         </div>
        
         <div class="overview">
@@ -106,7 +129,7 @@
                         
                         <tr>
                             <th>Role</th>
-                            <td class="text-role">UX designer User Research, Interaction, Visual design, Prototyping & Testing</td>
+                            <td  id="process"   class="text-role">UX designer User Research, Interaction, Visual design, Prototyping & Testing</td>
                             
                         </tr>
         
@@ -120,7 +143,7 @@
             
                 </div>
 
-                <div class="titles" >
+                <div id="research" class="titles" >
 
                     <h3>The Process</h3>
 
@@ -132,7 +155,7 @@
                 
                 We tested the first prototype we created, in order to detect from user, pain points or positive feedbacks for our first attempt. </p>
 
-                <div class="titles" >
+                <div  id="research"  class="titles" >
 
                     <h3>Research & Definition</h3>
     
@@ -150,8 +173,115 @@
 
                 <img class="persona" src="images/persona.png">
 
-                <h3>To be Continue...</h3>
+
+                <div  id="ideation"  class="titles" >
+
+                    <h3>Ideation</h3>
+    
+                </div>
+
+                         
+                <p>We created a user flow diagram to describe all the steps users requered to complete all the tasks through the website. 
+                    We focus on highlight the main services as it is Donation and adopt a pet.  </p> <br> <br>
+
+                <img class="persona" src="images/flow.png">
+
+                <hr>
+
+                <img class="journey" src="images/journey.png">
+
+
+
+                <div  id="prototype"  class="titles" >
+
+                    <h3>Prototyping</h3>
+
+                </div>
+
+                <img class="journey" src="images/sketch.png">
+
+                <p>Having our ideas in order and after many iterations on the site map, we proceeded to sketch and define the best way to show users the step by step to make a donation, adopt a pet, among other tasks that the user can perform through the website.</p><br><br>
+
+                <h3>Ideas to be included in the redesign thanks to users recomendations </h3><br><br>
+
+                <ul class="explanation">
+                    <li>Make main services more visible on the home page, so that it is the first thing the user sees once they navegate throught the website.</li>
+                    <li>Create a search engine option to find  shelters close to users area  to improve their experience when adopting a pet.</li>
+                    <li>Have a more colourful and friendly appearance for users to trust and feel more attract to visit actively the website</li>
+                    <li>Have a better distribution of the content in the homepage </li>
+                    <li>Simplify the menu content, leaving the main services first and the rest as submenus </li>
+                </ul>
+
+                <br><br>  <hr>  <br><br> 
+
+                <img class="journey" src="images/prototype.png">
+
+                <br>  <br>  <br> <br> <h3>UI style guide</h3>
+
+
+                <img class="journey" src="images/guide.png">
+
+
+                <div  id="research"  class="titles" >
+
+                    <h3>Visual Design</h3>
+
+                        
+                </div>
+
+                <div id= "visual" class="visual">
+
+                    <div class="visual-left"> 
+
+                        <p> Before to come up with the final design, we worked in some more iteration and run some A/B testing plan to make sure we were using the right design patrons for this project. <br> <br>
+
+                            In terms of design, we based on a clean and simple concept with brigth colors and attractive pictures helping users to feel more familiar and willing to made use of the website. </p><br> <br>
+
+                            <h3>FINAL PROTOTYPE</h3>
+
+                            <ul class="version">
+                                <a href=""><li>Desktop Version</li></a>
+                               <a href=""><li>Mobile Version</li></a> 
+                            </ul>
+                    </div>
+                    <div class="visual-right">
+
+                        <img  src="images/version.png">
+                    </div>
+                </div>
+               
+
+                <footer class="social-footer">
+
+                    <div class="bottom">
+            
+                        <p>FOLLOW ME</p>
+            
+                        <ul>               
+                            <li> <a href="#"><img src="images/dribbble_b.png"> </a> </li>
+                            <li> <a href="#"><img src="images/behance_b.png"> </a></li>
+                            <li> <a href="#"><img src="images/linkedin_b.png"> </a></li>
+                        </ul>
+            
+            
+                        <h4>Jessica Bossio - Copyright © 2021</h4> 
+            
+            
+                    </div>
+            
+            
+                </footer>
+
+
+                
         </div>
+
+
+
+       
+    
+        
+        <script src="js/index.js"></script>
 
        
 

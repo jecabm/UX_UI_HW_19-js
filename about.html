@@ -40,8 +40,8 @@
 
                 <ul>
 
-                    <li> <a href="#projects">Menu </a></li>
-                    <li> <a href="about.html" class="urger"><img src="images/burger.png"> </a></li>
+                    <li > <span id="burger" class="burger" onclick="openNav()">Menu</span> </li>
+                    <li > <span id="burger" class="burger" onclick="openNav()"><img src="images/burger.png"></span>  </li>
                     
                 </ul>
 
@@ -55,17 +55,23 @@
 
            
 
-
            
             
            
         </div>
 
-        <div class="social">
+        <div id="social" class="social nav-active">
+
+            <div class="close">
+
+                <a href="#" id="close" class="close" onclick="closeNav()"><img src="images/closed.png"></a>
+            
+            
+            </div>
 
             <ul>
     
-                <li> <a href="#projects" class=" menu">Projects </a></li>
+                <li> <a href="index.html#projects" class=" menu">Projects </a></li>
                 <li> <a href="about.html" class=" menu">About </a></li>
                 
             </ul>
@@ -96,7 +102,7 @@
     </section>
     
     
-  
+    <script src="js/index.js"></script>
     
 </body>
 </html>
